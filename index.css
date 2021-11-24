@@ -1,0 +1,189 @@
+/* body */
+
+/* navbar */
+navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.navbar-nav ms-auto mb-2 mb-lg-0{
+    list-style: none;
+}
+
+.nav-list{
+    display: flex;
+    margin-right: 2rem;
+}
+
+#kanan{
+    float: right;
+}
+
+/* navbar */
+.navbar navbar-expand-lg navbar-dark bg-dark fixed-top{
+    max-width: 768px;
+}
+
+/* section 1 */
+#introduction{
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 360px;
+    height:600px;
+    background: gainsboro;
+}
+
+.thick-green-border {
+    border-color: silver;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .smaller-image {
+    width: 180px;
+    border-radius: 50%;
+  }
+
+.introduction__title{
+    font-size: 1.5rem;
+    margin: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.introduction_next {
+    margin: 200px;
+}
+
+.introduction__right:after {
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    background: none;
+    top: 50px;
+    left: -20px;
+    display: inline-block;
+}
+
+.introduction__right img {
+    place-self: center;
+}
+
+#introduction p {
+    margin-bottom: 16px;
+}
+
+/* section 2 */
+#about{
+    align-items: center;
+    margin:auto;
+    padding-top: 160px;
+    padding-bottom: 360px;
+    height:1000px;
+    margin-top: 18px;
+}
+
+/* section 3 */
+#personal_detail{
+    align-items: center;
+    margin:auto;
+    padding-top: 120px;
+    padding-bottom: 340px;
+    height:700px;
+    margin-top: 18px;
+    background: gainsboro;
+}
+
+/* section 4 */
+#education {
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 360px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#education h2.title {
+    text-align: center;
+}
+
+.education__content {
+    margin-bottom: 16px;
+}
+
+.education__content .date {
+    margin-bottom: 8px;
+}
+
+.education__content .job {
+    font-weight: bold;
+}
+
+/* section 5 */
+#experience {
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 360px;
+    height:1700px;
+    display: flex;
+    flex-direction: column;
+    background: gainsboro;
+}
+
+#experience h2.title {
+    text-align: center;
+}
+
+.experience__content {
+    margin-bottom: 16px;
+}
+
+.experience__content .date {
+    margin-bottom: 8px;
+}
+
+.experience__content .job {
+    font-weight: bold;
+}
+
+/* section 6 */
+#project{
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 360px;
+    height:1100px;
+}
+
+/* section 7 */
+#contact{
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 360px;
+    height:800px;
+    background: gainsboro;
+}
+
+.sayhello{
+    padding: 10px;
+    margin: 30px;
+}
+
+/* footer */
+footer{
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    height:100px;
+}
